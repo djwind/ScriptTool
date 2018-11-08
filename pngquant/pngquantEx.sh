@@ -20,3 +20,4 @@ echo "**************PNGQUANT END"
 # help url: 
 # https://stackoverflow.com/questions/4321456/find-exec-a-shell-function-in-linux
 # https://blog.csdn.net/ljianhui/article/details/43128465
+# https://pngquant.org/
