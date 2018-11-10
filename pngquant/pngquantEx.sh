@@ -7,7 +7,7 @@ pngquantFile () {
 	f=$1
 	dir=${f%/*} #获取目录
 	if [ ! -d "./pngquantEx/${dir#*.}" ]; then
-		mkdir "./pngquantEx/${dir#*.}"
+		mkdir -p "./pngquantEx/${dir#*.}"
 	fi
 	pngquant $f --output ./pngquantEx/${f#*/}
   	echo "pngquantFile $f"
